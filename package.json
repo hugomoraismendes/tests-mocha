@@ -1,0 +1,36 @@
+{
+  "name": "mocha-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "converter": "node src/app/converter.js",
+    "server": "node src/app/server.js",
+    "task-list": "node src/app/task-list.js",
+    "text": "node src/app/text.js",
+    "calculator": "node src/app/calculator.js",
+    "app2": "node src/app2/app.js",
+    "test-app": "mocha tests/app",
+    "test-app2": "mocha tests/app2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0",
+    "faker": "^4.1.0"
+  }
+}

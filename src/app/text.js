@@ -1,0 +1,1 @@
+module.exports = () => 'Teste de Mocha é bem legal';
